@@ -1,7 +1,7 @@
 EXE=main
-SRC=main.c ./json-builder/json-builder.c
-LIB=./json-parser/libjsonparser.a
-CFLAGS=-Wall -I./json-builder/ -I./json-parser/ -g
+SRC=main.c 
+LIB=./libjson/libjson.a
+CFLAGS=-Wall -g
 LFLAGS=-lm
 
 OBJ := $(patsubst %.c,%.o,$(SRC))

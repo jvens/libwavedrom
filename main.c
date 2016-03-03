@@ -8,8 +8,9 @@
 
 #include <string.h>
 
-#include "json-parser/json.h"
-#include "json-builder/json-builder.h"
+#include "libjson/json.h"
+//#include "json-parser/json.h"
+//#include "json-builder/json-builder.h"
 
 /**
  * A wavedrom signal
